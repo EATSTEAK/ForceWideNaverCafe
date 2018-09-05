@@ -1,0 +1,428 @@
+@-moz-document domain("cafe.naver.com") {
+/*
+GLOBAL / FRONT PAGE SECTION
+*/
+
+/*
+GLOBAL FONT SETTINGS
+*/
+body, div, li, dd, dt, td, textarea, input, select {
+    font-family: "나눔고딕", "Apple SD Gothic Neo", Helvetica, NanumGothic, "맑은 고딕", MalgunGothic, "돋움", dotum, sans-serif;
+}
+
+body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    font-size: 13px;
+}
+
+
+/* 
+FORCED WIDE LAYOUT
+*/
+div #cafe-body {
+    width: 1080px;
+}
+
+div #front-cafe {
+    width: 1080px !important;
+}
+
+/*
+TOP IMAGE RESIZE
+*/
+#front-cafe > a:nth-child(1) > img:nth-child(1) {
+    width: 1080px;
+    height: auto;
+}
+
+#special-menu {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    z-index: -1;
+}
+
+/*
+NOTICE AND GNB BAR ON TOP
+*/
+#naver-gnb {
+    margin: 0 auto;
+    height: 35px;
+    z-index: 1000;
+}
+
+#required-notice {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: normal;
+}
+#required-notice p {
+    line-height: normal;
+}
+
+/**************** INSIDE IFRAME ****************/
+
+#main-area:not(.skin-1080) {
+    width: 860px !important;
+}
+
+#cafe_main[width="773"] {
+    width: 860px !important;
+}
+
+#cafe-body[style="width:773px"] {
+    width: 860px !important;
+}
+
+/*
+FRONT PAGE
+*/
+
+#main-area:not(.skin-1080) .gate-list {
+    width: 851px !important;
+}
+
+#main-area:not(.skin-1080) .gate-box table[role="presentation"] {
+    width: 100% !important;
+}
+
+/*
+MAIN LAYOUT
+*/
+
+#main-area:not(.skin-1080) div.c-d-l1 {
+    width: 420px;
+}
+
+#main-area:not(.skin-1080) div.c-d-l2 {
+    width: 860px;
+}
+
+#main-area:not(.skin-1080) .list-tit h3 {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 0px;
+    
+}
+
+#main-area:not(.skin-1080) .area-btn-more {
+    top: 15px;
+}
+
+#main-area:not(.skin-1080) .list-tit {
+    height: 40px;
+    background-position-y: 10px;
+    background-size: 100% 30px;
+}
+
+/* 
+MAIN ALBUM VIEW
+*/
+
+#main-area:not(.skin-1080) .article-album .album-box li {
+    width: 115px;
+    height: 180px;
+}
+
+#main-area:not(.skin-1080) .article-album .album-box dl {
+    width: 115px;
+}
+
+#main-area:not(.skin-1080) .article-album .album-box dt {
+    height: 115px;
+}
+
+#main-area:not(.skin-1080) .article-album .album-box dt img {
+    height: 115px;
+}
+
+
+}
+
+@-moz-document domain("cafe.naver.com") {
+/*
+SIDEBAR SECTION
+*/
+
+#group-area {
+    width: 200px;
+}
+
+/*
+CAFE INFO
+*/
+
+#group-area:not(.skin-1080) .cafe-info-action {
+    width: 200px;
+}
+
+#group-area:not(.skin-1080) .tit-info-on {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 80px !important;
+}
+
+#group-area:not(.skin-1080) .tit-info {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 80px !important;
+}
+
+#group-area:not(.skin-1080) .tit-action {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 80px !important;
+}
+#group-area:not(.skin-1080) .tit-action-on {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 80px !important;
+}
+
+#group-area:not(.skin-1080) .tit-bookmark {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 35px !important;
+}
+
+#group-area:not(.skin-1080) .box-g {
+    background-repeat: no-repeat !important;
+    background-size: 100% 160% !important;
+    width: 200px !important;
+}
+
+#group-area:not(.skin-1080) .info-action-tab {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 200px !important;
+}
+
+#group-area:not(.skin-1080) .cafe-write-btn ._rosRestrict {
+    width: 0px;
+}
+#group-area:not(.skin-1080) .btn-write {
+    width: 0px;
+    height: 0;
+}
+
+#group-area:not(.skin-1080) .cafe-write-btn ._rosRestrict:after {
+    width: 200px;
+    content: "카페 글쓰기";
+    display: block;
+    height: 34px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    background-color: #757575;
+    color: white;
+    line-height: 34px;
+    
+}
+
+/*
+CAFE SEARCH
+*/
+#group-area:not(.skin-1080) #cafe-search {
+    width: 200px;
+}
+
+#group-area:not(.skin-1080) #cafe-search #topLayerQueryInput {
+    width: 148px;
+}
+
+/*
+CAFE MENU
+*/
+#group-area:not(.skin-1080) #cafe-menu {
+    width: 200px;
+}
+
+#group-area:not(.skin-1080) .box-g-t {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 200px !important;
+}
+#group-area:not(.skin-1080) .box-g-m {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 200px !important;
+}
+#group-area:not(.skin-1080) .box-g-b {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 200px !important;
+}
+
+#group-area:not(.skin-1080) .cafe-menu-tit {
+    width: 190px;
+    background-repeat: no-repeat !important;
+    background-size: 140% 100% !important;
+    margin-bottom: 10px;
+}
+
+#group-area:not(.skin-1080) .cafe-menu-tit:not(.frst) {
+    margin-top: 10px;
+}
+
+#group-area:not(.skin-1080) .cafe-menu-list li {
+    margin-top: 5px;
+}
+
+#group-area:not(.skin-1080) .cafe-menu-tit h3 {
+    font-size: 13px;
+}
+
+/*
+WIDGET
+*/
+#group-area:not(.skin-1080) .com {
+    width: 200px;
+}
+
+#group-area:not(.skin-1080) .box-w {
+    width: 180px;
+}
+}
+
+@-moz-document domain("cafe.naver.com") {
+/*
+BOARD LAYOUT SECTION
+*/
+
+/*
+BOARD TITLE
+*/
+
+#main-area:not(.skin-1080) #sub-tit , #main-area:not(.skin-1080) .sub-tit-bottom {
+    background-image: none;
+}
+
+#main-area:not(.skin-1080) #sub-tit {
+    position: relative;
+    padding-top: 6px;
+    line-height: normal;
+    letter-spacing: 0px;
+    overflow: hidden;
+    font-weight: 400;
+    width: 860px;
+}
+
+#main-area:not(.skin-1080) #sub-tit h3 {
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: 0px;
+    overflow: auto;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+#main-area:not(.skin-1080) #sub-tit #favoriteImg {
+    margin-top: 10px;
+}
+
+#main-area:not(.skin-1080) .sub-tit-bottom {
+    height: 0;
+}
+
+/*
+LIST TYPE
+*/
+#main-area:not(.skin-1080) ._articleListTitle td {
+    height: 40px;
+    padding: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#main-area:not(.skin-1080) table.board-box tr[align="center"] td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.article-board:nth-child(7) > form:nth-child(1) > table:nth-child(1) > tbody:nth-child(3) > tr:nth-child(3) > td:nth-child(6) > div:nth-child(1) > span:nth-child(1) > em:nth-child(1) {
+    font-family: "나눔고딕", "Apple SD Gothic Neo", Helvetica, NanumGothic, "맑은 고딕", MalgunGothic, "돋움", dotum, sans-serif;
+}
+
+/*
+ALBUM TYPE
+*/
+#main-area:not(.skin-1080) .article-album-sub {
+    width: 860px;
+    margin: 0 0 0 10px;
+}
+
+#main-area:not(.skin-1080) .article-album-sub li {
+    width: 200px;
+    height: 300px;
+    margin: 0 0 0 15px;
+}
+
+#main-area:not(.skin-1080) .article-album-sub .over_hidden {
+    width: 200px;
+    height: 200px;
+}
+
+#main-area:not(.skin-1080) .article-album-sub .album-img {
+    width: 190px;
+    height: 190px;
+}
+
+#main-area:not(.skin-1080) .article-album-sub .album-img td a img {
+    width: 190px;
+    height: 190px;
+}
+
+#main-area:not(.skin-1080) .article-album-sub .border_absolute {
+    border: 0px;
+}
+
+#main-area:not(.skin-1080) .over_hidden + dl dt .m-tcol-c {
+    max-width: 200px;
+}
+
+/* 
+CARD TYPE
+*/
+#main-area:not(.skin-1080) .article-movie-sub {
+    width: 860px !important;
+}
+
+#main-area:not(.skin-1080) .article-movie-sub li {
+    width: 860px !important;
+    align-items: start;
+}
+
+#main-area:not(.skin-1080) .article-movie-sub li dl {
+    width: 830px !important;
+}
+}
+
+@-moz-document domain("cafe.naver.com") {
+/*
+ARTICLE SECTION
+*/
+
+/* 
+COMMENTS AND INFO FONTS
+*/
+#main-area:not(.skin-1080) .cmlist .dsc_comm, #main-area:not(.skin-1080) .cmlist .btn_edit a, #main-area:not(.skin-1080) .cmlist .date, .u_cbox, .u_cbox p, .u_cbox h1, .u_cbox h2, .u_cboxh3, .u_cbox h4, .u_cbox h5, .u_cbox h6, .u_cbox ul, .u_cbox ol, .u_cbox li, .u_cbox dl, .u_cbox dt, .u_cbox dd, .u_cbox table, .u_cbox th, .u_cbox td, .u_cbox form, .u_cbox fieldset, .u_cbox legend, .u_cbox input, .u_cbox textarea, .u_cbox button, .u_cbox select, .searchad .tit {
+    font-family: "나눔고딕", "Apple SD Gothic Neo", Helvetica, NanumGothic, "맑은 고딕", MalgunGothic, "돋움", dotum, sans-serif;
+}
+
+/*
+BASIC ARTICLE TWEAK
+*/
+#main-area:not(.skin-1080) .list-blog {
+    width: 850px;
+}
+
+#main-area:not(.skin-1080) .list-blog .inbox {
+    width: 830px;
+}
+
+#main-area:not(.skin-1080) .list-blog .tit-box {
+    width: 820px;
+}
+
+#main-area:not(.skin-1080) .list-blog .etc-box {
+    width: 820px;
+}
+}
