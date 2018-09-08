@@ -60,6 +60,10 @@ NOTICE AND GNB BAR ON TOP
 
 /**************** INSIDE IFRAME ****************/
 
+#main-area:not(.skin-1080) .cd-box-s {
+    width: 650px;
+}
+
 #main-area:not(.skin-1080) {
     width: 860px !important;
 }
@@ -76,8 +80,16 @@ NOTICE AND GNB BAR ON TOP
 FRONT PAGE
 */
 
-#main-area:not(.skin-1080) .gate-list {
+#main-area:not(.skin-1080) .gate-list[style="width:767px;float:left;"] {
     width: 851px !important;
+}
+
+#main-area:not(.skin-1080) .gate-list[style="width:584px;float:left;"] {
+    width: 640px !important;
+}
+
+#main-area:not(.skin-1080) #widget-area {
+    width: 200px !important;
 }
 
 #main-area:not(.skin-1080) .gate-box table[role="presentation"] {
@@ -94,6 +106,14 @@ MAIN LAYOUT
 
 #main-area:not(.skin-1080) div.c-d-l2 {
     width: 860px;
+}
+
+#main-area:not(.skin-1080) div.c-d-s2 {
+    width: 640px;
+}
+
+#main-area:not(.skin-1080) div.c-d-s1 {
+    width: 320px;
 }
 
 #main-area:not(.skin-1080) .list-tit h3 {
@@ -158,29 +178,42 @@ CAFE INFO
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     width: 80px !important;
+    padding-left: 0px !important;
+}
+
+#group-area:not(.skin-1080) .tit-info-on .gm-tcol-t, #group-area:not(.skin-1080) .tit-action-on .gm-tcol-t, #group-area:not(.skin-1080) .tit-info p, #group-area:not(.skin-1080) .tit-action p {
+    text-align: center;
 }
 
 #group-area:not(.skin-1080) .tit-info {
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     width: 80px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 #group-area:not(.skin-1080) .tit-action {
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     width: 80px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 #group-area:not(.skin-1080) .tit-action-on {
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     width: 80px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 #group-area:not(.skin-1080) .tit-bookmark {
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     width: 35px !important;
+    padding-right: 3px !important;
+    padding-left: 2px !important;
 }
 
 #group-area:not(.skin-1080) .box-g {
@@ -273,7 +306,7 @@ CAFE MENU
 /*
 WIDGET
 */
-#group-area:not(.skin-1080) .com {
+#group-area:not(.skin-1080) .com, #main-area:not(.skin-1080) #widget-area .com {
     width: 200px;
 }
 
@@ -425,4 +458,40 @@ BASIC ARTICLE TWEAK
 #main-area:not(.skin-1080) .list-blog .etc-box {
     width: 820px;
 }
+}
+
+/*
+EDITOR, ETC. SECTION
+*/
+
+#naver_common_editor div, #naver_common_editor ul, #naver_common_editor td, #naver_common_editor input, #naver_common_editor textarea, #nboard[style="width: 773px; text-align: left;"] .warning_message {
+    font-family: "나눔고딕", "Apple SD Gothic Neo", Helvetica, NanumGothic, "맑은 고딕", MalgunGothic, "돋움", dotum, sans-serif;
+}
+
+#nboard[style="width: 773px; text-align: left;"] {
+    width: 860px !important;
+}
+
+#nboard[style="width: 773px; text-align: left;"] #editor_boder {
+    width: 860px;
+}
+
+#nboard[style="width: 773px; text-align: left;"] #naver_common_editor {
+    width: 830px;
+}
+
+#nboard[style="width: 773px; text-align: left;"] .subject {
+    width: 860px;
+}
+
+#nboard[style="width: 773px; text-align: left;"] .post_subject {
+    width: 860px;
+}
+
+#nboard[style="width: 773px; text-align: left;"] .post_subject #subject {
+    width: 660px;
+}
+
+#nboard[style="width: 773px; text-align: left;"] #toolbox {
+    width: 830px;
 }
